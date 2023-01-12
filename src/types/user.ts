@@ -14,6 +14,11 @@ export type GithubUser = {
   created_at: string;
 };
 
+export type GithubError = {
+  message: string;
+  documentation_url: string;
+};
+
 // login: "Fedor4994";
 // id: 103943126;
 // avatar_url: "https://avatars.githubusercontent.com/u/103943126?v=4";
